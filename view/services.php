@@ -1,109 +1,80 @@
-<div class="all-block-presentation">
-<div class="general-block">
-        <div class="general-block2">
-        <h1 class="block-titre">
-            Coiffure
-        </h1>   
-        
-        <div class="block1">
-            <div class="jaune">
 
+<p class="text-center">
+Coiffures 
+</p>
+    <div class="services-1-1" id="services-1-1">
+            <div>
+                    <img src="src/img/photos COIFFURE/400px_1.jpg" alt="" srcset="">
             </div>
-            <div class="rouge">
-
+            <div>
+                    <img src="src/img/photos COIFFURE/400px_2.jpg" alt="" srcset="">
             </div>
-        </div>
-        <div class="block2">
-            <div class="rectable">
-
+            <div>
+                <img src="src/img/photos COIFFURE/400px_3.jpg" alt="">
             </div>
-        </div>
+            <div>
+                <img src="src/img/photos COIFFURE/400px_4.jpg" alt="">
+            </div>
     </div>
-</div>
-<div class="general-block">
-        <div class="general-block2">
-        <h1 class="block-titre">
-            MANUCURE
-        </h1>   
-        
-        <div class="block1">
-            <div class="jaune">
 
-            </div>
-            <div class="rouge">
 
+    <p class="text-center">
+Manucure 
+</p>
+    <div class="services-1-2" id="services-1-2">
+            <div>
+                    <img src="src/img/photos MANUCURE/400px_1.jpg" alt="" srcset="">
             </div>
-        </div>
-        <div class="block2">
-            <div class="rectable">
-
+            <div>
+                    <img src="src/img/photos MANUCURE/400px_2.jpg" alt="" srcset="">
             </div>
-        </div>
+            <div>
+                <img src="src/img/photos MANUCURE/400px_3.jpg" alt="">
+            </div>
+            <div>
+                <img src="src/img/photos MANUCURE/400px_4.jpg" alt="">
+            </div>
     </div>
-</div>
-<div class="general-block">
-        <div class="general-block2">
-        <h1 class="block-titre">
-            SOINS
-        </h1>   
-        
-        <div class="block1">
-            <div class="jaune">
-
+    
+    
+ 
+    <p class="text-center">
+Soins 
+</p>
+    <div class="services-1-3" id="services-1-3">
+            <div>
+                    <img src="src/img/photos SOIN/400px_1.jpg" alt="" srcset="">
             </div>
-            <div class="rouge">
-
+            <div>
+                    <img src="src/img/photos SOIN/400px_2.jpg" alt="" srcset="">
             </div>
-        </div>
-        <div class="block2">
-            <div class="rectable">
-
+            <div>
+                <img src="src/img/photos SOIN/400px_3.jpg" alt="">
             </div>
-        </div>
-    </div>
-</div>
-</div>
-
+            <div>
+                <img src="src/img/photos SOIN/400px_4.jpg" alt="">
+            </div>
+    </div>   
+    <div id="services"></div>
 <style>
-    .all-block-presentation{
-        display:flex; 
-     
-        justify-content:space-around;
-        flex-wrap:wrap ; 
+    #services-1-1 img,#services-1-2 img,#services-1-3 img {
+        width:200px; 
     }
-    .general-block{
-        width:500px; 
-
+ .services-1-1, .services-1-2, .services-1-3{
+     display:flex; 
+     justify-content:space-around ; 
+     flex-wrap:wrap; 
+     width:850px; 
+     margin:auto ; 
+ }
+ @media screen and (max-width: 1280px)
+{
+    .services-1-1, .services-1-2, .services-1-3{ 
+     width:450px; 
+     margin:auto ; 
     }
-    .general-block2{
-        width:100%; 
-        
-        margin:auto; 
-         
-    }
-    .block-titre{
-        text-align:center; 
-       
-    }
-    .block1{
-        display:flex;
-        padding:10px; 
-    }
-    .block2{
-        padding:10px; 
-    }
-    .jaune,.rouge{
- width:50%;
- height:200px; 
- margin:2px; 
- border:1px solid black ; 
-    }
-    .rectable{
-        border:1px solid black ; 
-        width:98%; 
-        height:200px; 
-    }
-    .block1,.block2{
-        display:none; 
-    }
+ img{
+     margin-bottom:50px; 
+ }
+}
 </style>

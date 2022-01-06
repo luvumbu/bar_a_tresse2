@@ -1,3 +1,4 @@
+<div  class="d100"></div>
 <div class="horaires" id="horaires2">
           
           <div>Lundi : 10h - 19h</div>
@@ -7,3 +8,17 @@
           <div>Vendredi : 10h - 19h</div>
           <div>Samedi : 10h - 19h</div>
     </div>
+<div id="horaires"></div>
+    <style>
+          .d100{
+                margin-top:200px; 
+          }
+#horaires2 {
+      width:800px; 
+      margin:auto ; 
+      background-color:#563452 ; 
+      text-align:center ; 
+      color:white ; 
+      padding:25px ; 
+}
+    </style>
