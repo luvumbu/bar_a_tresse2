@@ -1,0 +1,154 @@
+<div id="app_section">
+    <h1 class="h1_">
+        BAR A TRESSE LILLE
+    </h1>
+</div>
+<div class="margin-top-100"></div>
+ 
+
+ 
+<style>
+    .h1_{
+        text-align: center;
+        margin-top:100px; 
+        margin-bottom:100px; 
+    }
+    .section-1{
+        width: 100%;
+        background-color: #372535;
+        position: relative;
+        height: 600px;
+             background-image: url("src/img/800 bis.jpg");
+        background-size:40% ; 
+        background-position: 100% ;
+        background-repeat: no-repeat;
+        transition : 4s all ; 
+    }
+    .info {
+        color:white ; 
+        text-align: center;
+        padding-top:50px; 
+        width: 50%;
+        margin: auto;
+        text-align: justify;
+        text-shadow: 1px 1px 1px black;
+    }
+    .section-2{
+        width: 100%;
+        background-color: #372535;
+        position: relative;
+        height: 600px;
+               background-image: url("src/img/800.jpg");
+        background-size:40% ; 
+        background-position: 100% ;
+        background-repeat: no-repeat;
+        transition : 4s all ; 
+    }
+    .form_choix{
+         width:40%; 
+         margin:auto; 
+         text-align: center;       
+     }
+     .class_connexion:hover,.class_inscription:hover{
+        cursor:pointer ; 
+        background-color: white;
+        color:brown; 
+        cursor:pointer; 
+
+     }
+     .section-img-1{
+         width:400px;
+         position: absolute;
+         right: 0;
+     }
+ 
+   
+     .margin-top-100{
+         margin-top: 150px; 
+     }
+.horaires{
+    background-color: #643e5f;
+    color:white; 
+    font-size: 1.5em;
+   
+    width:400px; 
+    margin: auto;
+    padding: 15px;
+    margin-top:50px; 
+    text-align: center;
+     
+}
+
+     @media screen and (max-width: 1280px)
+{
+    .section-1{
+        width: 100%;
+        background-color: #372535;
+        position: relative;
+        height: 600px;
+        background-image: url("src/img/400 bis.jpg");
+        background-size:100% ; 
+        background-position: 100% ;
+        background-repeat: no-repeat;
+    }
+    .section-2{
+        width: 100%;
+        background-color: #372535;
+        position: relative;
+        height: 600px;
+        background-image: url("src/img/400.jpg");
+        
+        background-size:100% ; 
+        background-position: 100% ;
+        background-repeat: no-repeat;
+       
+    }
+    .info{
+        font-size: 1.5em ; 
+    }
+    .section-1,.section-2{
+        width: 100%;
+  
+        height: 1000px;
+ 
+}
+
+ 
+}
+</style>
+
+
+
+ 
+
+
+ <script>
+
+ 
+
+
+
+
+
+
+setInterval(displayHello, 7000);
+let statue = 0 ; 
+let section_1 =   document.getElementById("section-1") ; 
+
+let info =   document.getElementById("info") ; 
+
+function displayHello() {
+    if(statue==0){
+    
+        statue = 1 ; 
+    section_1.className="section-2";
+  
+    }
+    else {
+        section_1.className="section-1";
+        
+        statue = 0 ; 
+    }
+
+}
+ </script>
