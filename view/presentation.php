@@ -1,5 +1,5 @@
 <div class="section-1" id="section-1">
- <p class="section-1-text">
+ <p class="section-1-text police1">
     Bienvenue sur le site bar a tresse votre salon de coiffure à lille.
      Bar a tresse est le spécialiste de vos cheveux. de votre look. 
      La beauté naturelle se trouve en chacun de nous, il faut seulement la reconnaître et la libérer. 
@@ -16,6 +16,9 @@
   </div>
  
   <style>
+     .police1{
+        font-size:1.2em; 
+     }
      #section-1{
         background-image:url("src/img/00_photos qui defilent/400 bis.jpg");
         background-repeat: no-repeat;
@@ -35,6 +38,8 @@
 {
    #section-1{
         background-image:url("");
+        height:1100px;
+        font-size:2em;
  
      }
      .section-1-text{

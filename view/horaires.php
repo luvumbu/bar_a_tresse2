@@ -1,5 +1,5 @@
 <div  class="d100"></div>
-<div class="horaires" id="horaires2">
+<div class="horaires police2" id="horaires2">
           
           <div>Lundi : 10h - 19h</div>
           <div>Mardi : 10h - 19h</div>
@@ -14,7 +14,7 @@
                 margin-top:200px; 
           }
 #horaires2 {
-      width:800px; 
+      width:500px; 
       margin:auto ; 
       background-color:#563452 ; 
       text-align:center ; 

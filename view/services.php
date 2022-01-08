@@ -1,5 +1,5 @@
 
-<p class="text-center">
+<p class="text-center police2">
 Coiffures 
 </p>
     <div class="services-1-1" id="services-1-1">
@@ -18,7 +18,7 @@ Coiffures
     </div>
 
 
-    <p class="text-center">
+    <p class="text-center police2">
 Manucure 
 </p>
     <div class="services-1-2" id="services-1-2">
@@ -38,7 +38,7 @@ Manucure
     
     
  
-    <p class="text-center">
+    <p class="text-center police2">
 Soins 
 </p>
     <div class="services-1-3" id="services-1-3">
@@ -58,7 +58,7 @@ Soins
     <div id="services"></div>
 <style>
     #services-1-1 img,#services-1-2 img,#services-1-3 img {
-        width:200px; 
+        width:400px; 
     }
  .services-1-1, .services-1-2, .services-1-3{
      display:flex; 
@@ -67,10 +67,14 @@ Soins
      width:850px; 
      margin:auto ; 
  }
+ .police2{
+     padding:35px; 
+     font-size:2em; 
+ }
  @media screen and (max-width: 1280px)
 {
     .services-1-1, .services-1-2, .services-1-3{ 
-     width:450px; 
+     width:90%; 
      margin:auto ; 
     }
  img{
