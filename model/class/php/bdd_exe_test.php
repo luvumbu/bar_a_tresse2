@@ -82,6 +82,69 @@ $nom_file = "connexion.php";
 
                       $conn_2->close();
 
+
+
+
+
+
+
+
+
+                                            // Create connection
+                                            $conn_3 = new mysqli($servername, $username, $password, $dbname);
+                                            // Check connection
+                                            if ($conn_3->connect_error) {
+                                              die("Connection failed: " . $conn_3->connect_error);
+                                              
+                                            }
+                      
+                                            // sql to create table
+                                            $sql_3 = "CREATE TABLE information_form (
+                                            id_information_form	 INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                                            name_information_form VARCHAR(500) NOT NULL, 
+                                            source_img_information_form VARCHAR(500) NOT NULL,                                          
+                                            reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+                                            )";
+                      
+                                            if ($conn_3->query($sql_3) === TRUE) {
+                                              echo "Table showCoords created successfully";
+                                            
+                                            } else {
+                                              echo "Error creating table: " . $conn_3->error;
+                                            
+                                            }
+                      
+                                            $conn_3->close();
+
+
+
+                                                                                        // Create connection
+                                                                                        $conn_4 = new mysqli($servername, $username, $password, $dbname);
+                                                                                        // Check connection
+                                                                                        if ($conn_4->connect_error) {
+                                                                                          die("Connection failed: " . $conn_4->connect_error);
+                                                                                          
+                                                                                        }
+                                                                  
+                                                                                        // sql to create table
+                                                                                        $sql_4 = "CREATE TABLE information_form_plus (
+                                                                                        id_information_form_plus	 INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                                                                                        id_information_form	 VARCHAR(500) NOT NULL, 
+                                                                                        name_information_form VARCHAR(500) NOT NULL, 
+                                                                                        plus_information_form VARCHAR(500) NOT NULL, 
+                                                                                        prix_information_form VARCHAR(500) NOT NULL,                                          
+                                                                                        reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+                                                                                        )";
+                                                                  
+                                                                                        if ($conn_4->query($sql_4) === TRUE) {
+                                                                                          echo "Table showCoords created successfully";
+                                                                                        
+                                                                                        } else {
+                                                                                          echo "Error creating table: " . $conn_4->error;
+                                                                                        
+                                                                                        }
+                                                                  
+                                                                                        $conn_4->close();
                      
  // fin du test 
 } 
