@@ -36,7 +36,7 @@ Manucure
             </div>
     </div>
     
-    
+    <!-- 
  
     <p class="text-center police2">
 Soins 
@@ -56,6 +56,7 @@ Soins
             </div>
     </div>   
     <div id="services"></div>
+-->
 <style>
     #services-1-1 img,#services-1-2 img,#services-1-3 img {
         width:400px; 
