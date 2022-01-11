@@ -38,7 +38,7 @@
 {
    #section-1{
         background-image:url("");
-        height:2100px;
+        height:2000px;
         font-size:2em;
  
      }
