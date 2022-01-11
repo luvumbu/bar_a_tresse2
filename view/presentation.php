@@ -25,9 +25,11 @@
         text-align:justify ; 
      }
      .section-1-text{
-        width:50%; 
+        width:40%; 
         margin:auto; 
         color:white ; 
+        position:relative; 
+        top:60px; 
      }
 
      @media screen and (max-width: 1280px)

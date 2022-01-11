@@ -9,10 +9,10 @@ Coiffures
             <div>
                     <img src="src/img/photos COIFFURE/400px_2.jpg" alt="" srcset="">
             </div>
-            <div>
+            <div class="space-on">
                 <img src="src/img/photos COIFFURE/400px_3.jpg" alt="">
             </div>
-            <div>
+            <div class="space-on">
                 <img src="src/img/photos COIFFURE/400px_4.jpg" alt="">
             </div>
     </div>
@@ -28,28 +28,28 @@ Pose d'ongles
             <div>
                     <img src="src/img/photos MANUCURE/400px_2.jpg" alt="" srcset="">
             </div>
-            <div>
+            <div class="space-on">
                 <img src="src/img/photos MANUCURE/400px_3.jpg" alt="">
             </div>
-            <div>
+            <div class="space-on">
                 <img src="src/img/photos MANUCURE/400px_4.jpg" alt="">
             </div>
     </div>
 
     <p class="text-center police2">
-    pose de cils
+    pose de cils et épilation
 </p>
     <div class="services-1-2" id="services-1-2">
             <div>
                     <img src="src/img/pose_cil/IMG-20220102-WA0004.jpg" alt="" srcset="">
             </div>
             <div>
-                    <img src="src/img/pose_cil/les-cils-apres-la-pose-dextensions-ils-retrouvent-rapidement-1000x625.jpg" alt="" srcset="">
+                    <img src="src/img/pose_cil/IMG-20220102-WA0007.jpg" alt="" srcset="">
             </div>
-            <div style="margin-top:150px">
-                <img src="src/img/pose_cil/shutterstock_703882291-540x298.jpg" alt="">
+            <div>
+                    <img src="src/img/pose_cil/IMG-20220111-WA0025.jpg" alt="" srcset="">
             </div>
- 
+    
     </div>
     
     <!-- 
@@ -74,6 +74,9 @@ Soins
     <div id="services"></div>
 -->
 <style>
+    .space-on{
+        margin-top:25px; 
+    }
     #services-1-1 img,#services-1-2 img,#services-1-3 img {
         width:400px; 
     }
