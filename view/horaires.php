@@ -1,4 +1,7 @@
 <div  class="d100"></div>
+<h1 class="text-center padding-1">
+      HORAIRES
+</h1>
 <div class="horaires police2" id="horaires2">
           
           <div>Lundi : 10h - 19h</div>

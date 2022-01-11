@@ -1,12 +1,12 @@
 <div style="margin-top:150px">
-
+<h1 class="text-center padding-1" id="tarif">
+    TARIFS
+</h1>
 </div>
 <div class="mes_tarif">
     <img src="src/img/IMG-20220104-WA0017.jpg" alt="" srcset="">
 </div>
-<div id="tarif">
 
-</div>
 <style>
     .mes_tarif{
         

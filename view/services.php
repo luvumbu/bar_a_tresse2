@@ -1,19 +1,20 @@
 
-<p class="text-center police2">
+<p class="text-center police2" id="services">
 Coiffures 
 </p>
     <div class="services-1-1" id="services-1-1">
             <div>
-                    <img src="src/img/photos COIFFURE/400px_1.jpg" alt="" srcset="">
+                    <img src="src/img/photos COIFFURE/IMG-20220111-WA0028.jpg" alt="" srcset="">
             </div>
-            <div>
-                    <img src="src/img/photos COIFFURE/400px_2.jpg" alt="" srcset="">
-            </div>
+
             <div class="space-on">
                 <img src="src/img/photos COIFFURE/400px_3.jpg" alt="">
             </div>
             <div class="space-on">
                 <img src="src/img/photos COIFFURE/400px_4.jpg" alt="">
+            </div>
+            <div class="space-on">
+                    <img src="src/img/photos COIFFURE/IMG-20220111-WA0029.jpg" alt="" srcset="">
             </div>
     </div>
 
@@ -46,10 +47,13 @@ Pose d'ongles
             <div>
                     <img src="src/img/pose_cil/IMG-20220102-WA0007.jpg" alt="" srcset="">
             </div>
-            <div>
+            <div class="space-on">
                     <img src="src/img/pose_cil/IMG-20220111-WA0025.jpg" alt="" srcset="">
             </div>
-    
+            <div class="space-on">
+                    <img src="src/img/pose_cil/Sans titre-1.jpg" alt="" srcset="">
+            </div>
+            
     </div>
     
     <!-- 
