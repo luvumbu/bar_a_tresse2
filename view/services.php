@@ -19,7 +19,7 @@ Coiffures
 
 
     <p class="text-center police2">
-Pose ongles 
+Pose d'ongles 
 </p>
     <div class="services-1-2" id="services-1-2">
             <div>
@@ -37,7 +37,7 @@ Pose ongles
     </div>
 
     <p class="text-center police2">
-    pose cil à cil
+    pose de cils
 </p>
     <div class="services-1-2" id="services-1-2">
             <div>
