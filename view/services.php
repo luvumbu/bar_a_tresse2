@@ -19,7 +19,7 @@ Coiffures
 
 
     <p class="text-center police2">
-Manucure 
+Pause ongles 
 </p>
     <div class="services-1-2" id="services-1-2">
             <div>
@@ -34,6 +34,22 @@ Manucure
             <div>
                 <img src="src/img/photos MANUCURE/400px_4.jpg" alt="">
             </div>
+    </div>
+
+    <p class="text-center police2">
+    pose cil à cil
+</p>
+    <div class="services-1-2" id="services-1-2">
+            <div>
+                    <img src="src/img/pose_cil/IMG-20220102-WA0004.jpg" alt="" srcset="">
+            </div>
+            <div>
+                    <img src="src/img/pose_cil/les-cils-apres-la-pose-dextensions-ils-retrouvent-rapidement-1000x625.jpg" alt="" srcset="">
+            </div>
+            <div style="margin-top:150px">
+                <img src="src/img/pose_cil/shutterstock_703882291-540x298.jpg" alt="">
+            </div>
+ 
     </div>
     
     <!-- 
