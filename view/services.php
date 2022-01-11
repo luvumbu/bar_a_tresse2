@@ -19,7 +19,7 @@ Coiffures
 
 
     <p class="text-center police2">
-Pause ongles 
+Pose ongles 
 </p>
     <div class="services-1-2" id="services-1-2">
             <div>
