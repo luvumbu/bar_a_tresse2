@@ -33,7 +33,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "id: " . $row["id_information_form"] ;
+    echo "id: <h1>" . $row["id_information_form"] ."</h1>";
 
 $id_information_form = $row["id_information_form"] ;
 
