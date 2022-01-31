@@ -8,7 +8,7 @@ Coiffures
             </div>
 
             <div class="space-on">
-                <img src="src/img/photos COIFFURE/400px_3.jpg" alt="">
+                <img src="src/img/IMG-20220111-WA0034.jpg" alt="">
             </div>
             <div class="space-on">
                 <img src="src/img/photos COIFFURE/400px_4.jpg" alt="">
@@ -51,7 +51,7 @@ Pose d'ongles
                     <img src="src/img/pose_cil/IMG-20220111-WA0025.jpg" alt="" srcset="">
             </div>
             <div class="space-on">
-                    <img src="src/img/pose_cil/Sans titre-1.jpg" alt="" srcset="">
+                    <img src="src/img/pose_cil/IMG-20220111-WA0030.jpg" alt="" srcset="">
             </div>
             
     </div>
