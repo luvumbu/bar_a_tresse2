@@ -13,17 +13,17 @@
  
  
   <style>
-     .police1{
-        font-size:1.2em; 
-     }
+   
      #section-1{
        
         background-repeat: no-repeat;
-        height:400px;
+       
+       /* height:400px;*/
         background-position:100%;
         background-color:#372535 ; 
         padding:30px;
         text-align:justify ; 
+        padding-bottom:100px; 
      }
      .section-1-photo,.section-2-photo,.section-3-photo,.section-4-photo,.section-5-photo{
         transition:1s all;
@@ -56,8 +56,11 @@
 {
    #section-1{
         background-image:url("");
+     
+     /*
         height:2000px;
-        font-size:2em;
+        */
+       
  
      }
      .section-1-text{

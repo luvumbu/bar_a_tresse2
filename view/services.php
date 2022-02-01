@@ -1,6 +1,9 @@
 
 <p class="text-center police2" id="services">
-Coiffures 
+ 
+<h1 class="text-center" style="margin:50px">
+Coiffures
+   </h1>
 </p>
     <div class="services-1-1" id="services-1-1">
             <div>
@@ -11,7 +14,7 @@ Coiffures
                 <img src="src/img/IMG-20220111-WA0034.jpg" alt="">
             </div>
             <div class="space-on">
-                <img src="src/img/photos COIFFURE/400px_4.jpg" alt="">
+                <img src="src/img/IMG-20220131-WA0029.jpg" alt="">
             </div>
             <div class="space-on">
                     <img src="src/img/photos COIFFURE/IMG-20220111-WA0029.jpg" alt="" srcset="">
@@ -19,27 +22,31 @@ Coiffures
     </div>
 
 
-    <p class="text-center police2">
+ 
+
+<h1 class="text-center" style="margin:50px">
 Pose d'ongles 
-</p>
+   </h1>
     <div class="services-1-2" id="services-1-2">
             <div>
-                    <img src="src/img/photos MANUCURE/400px_1.jpg" alt="" srcset="">
+                    <img src="src/img/ongles/IMG-20220131-WA0024.jpg" alt="" srcset="">
             </div>
             <div>
-                    <img src="src/img/photos MANUCURE/400px_2.jpg" alt="" srcset="">
+                    <img src="src/img/ongles/IMG-20220131-WA0026.jpg" alt="" srcset="">
             </div>
             <div class="space-on">
-                <img src="src/img/photos MANUCURE/400px_3.jpg" alt="">
+                <img src="src/img/ongles/IMG-20220131-WA0027.jpg" alt="">
             </div>
             <div class="space-on">
-                <img src="src/img/photos MANUCURE/400px_4.jpg" alt="">
+                <img src="src/img/ongles/IMG-20220131-WA0028.jpg" alt="">
             </div>
     </div>
 
-    <p class="text-center police2">
-    pose de cils et épilation
-</p>
+   <h1 class="text-center" style="margin:50px">
+         Pose de cils et épilation
+   </h1>
+  
+ 
     <div class="services-1-2" id="services-1-2">
             <div>
                     <img src="src/img/pose_cil/IMG-20220102-WA0004.jpg" alt="" srcset="">
@@ -93,7 +100,7 @@ Soins
  }
  .police2{
      padding:35px; 
-     font-size:2em; 
+     
  }
  @media screen and (max-width: 1280px)
 {
