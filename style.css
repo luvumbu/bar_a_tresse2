@@ -81,4 +81,8 @@ html {
         margin-top:100px;
         justify-content: center;
         }
+        .responsive_2em {
+          font-size:2em ; 
+    }
+      
     }

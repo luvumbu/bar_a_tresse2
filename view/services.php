@@ -1,7 +1,7 @@
 
-<p class="text-center police2" id="services">
+<p class="text-center police2 " id="services">
  
-<h1 class="text-center" style="margin:50px">
+<h1 class="text-center responsive_2em " style="margin:50px">
 Coiffures
    </h1>
 </p>
@@ -24,7 +24,7 @@ Coiffures
 
  
 
-<h1 class="text-center" style="margin:50px">
+<h1 class="text-center responsive_2em " style="margin:50px">
 Pose d'ongles 
    </h1>
     <div class="services-1-2" id="services-1-2">
@@ -42,7 +42,7 @@ Pose d'ongles
             </div>
     </div>
 
-   <h1 class="text-center" style="margin:50px">
+   <h1 class="text-center responsive_2em" style="margin:50px">
          Pose de cils et épilation
    </h1>
   

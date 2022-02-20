@@ -2,7 +2,7 @@
 <h1 class="text-center padding-1">
       HORAIRES
 </h1>
-<div class="horaires police2" id="horaires2">
+<div class="horaires police2 responsive_2em " id="horaires2">
           
           <div>Lundi : 10h - 19h</div>
           <div>Mardi : 10h - 19h</div>
@@ -23,6 +23,6 @@
       text-align:center ; 
       color:white ; 
       padding:25px ; 
-      font-size:2em ; 
+     
 }
     </style>
