@@ -6,18 +6,19 @@ Coiffures
    </h1>
 </p>
     <div class="services-1-1" id="services-1-1">
-            <div>
-                    <img src="src/img/photos COIFFURE/IMG-20220111-WA0028.jpg" alt="" srcset="">
-            </div>
+ 
 
             <div class="space-on">
-                <img src="src/img/IMG-20220111-WA0034.jpg" alt="">
+                <img src="src/img/01_.jpg" alt="">
             </div>
             <div class="space-on">
-                <img src="src/img/IMG-20220131-WA0029.jpg" alt="">
+                <img src="src/img/02_.jpg" alt="">
             </div>
             <div class="space-on">
-                    <img src="src/img/photos COIFFURE/IMG-20220111-WA0029.jpg" alt="" srcset="">
+                <img src="src/img/03_.jpg" alt="">
+            </div>
+            <div class="space-on">
+                    <img src="src/img/04_.jpg" alt="" srcset="">
             </div>
     </div>
 
