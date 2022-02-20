@@ -4,7 +4,7 @@
 </h1>
 </div>
 <div class="mes_tarif">
-    <img src="src/img/IMG-20220104-WA0017.jpg" alt="" srcset="">
+    <img src="src/img/imgx002.jpg" alt="" srcset="">
 </div>
 
 <style>
