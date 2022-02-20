@@ -36,7 +36,7 @@
     {
 
       #horaires2 {
-      width:100%; 
+      width:70%; 
       margin:auto ; 
       background-color:#563452 ; 
       text-align:center ; 
