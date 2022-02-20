@@ -67,6 +67,7 @@
         width:90%; 
         margin:auto; 
         color:white ; 
+        font-size:2em ; 
      }
 }
   </style>
