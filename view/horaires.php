@@ -23,5 +23,6 @@
       text-align:center ; 
       color:white ; 
       padding:25px ; 
+      font-size:2em ; 
 }
     </style>
